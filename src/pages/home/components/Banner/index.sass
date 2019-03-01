@@ -1,0 +1,84 @@
+*
+  margin: 0
+  padding: 0
+
+.Masthead__image.is-parallax
+  position: fixed !important
+
+.Masthead
+  &::before
+    content: ""
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background: rgba(0,0,0, 0.2)
+    z-index: 1
+
+.agile__dots
+  position: absolute
+  bottom: 30px
+  left: 0
+  width: 100%
+  justify-content: center
+
+.agile__dot
+  width: 12px
+  height: 12px
+  margin-right: 18px
+
+  &:last-child
+    margin-right: 0
+
+  button
+    width: 100%
+    height: 100%
+    border: none
+    border-radius: 50%
+
+    &:hover
+      background-color: rgba(#606364, 0.5)
+
+.agile__dot--current
+  button
+    background-color: rgba(#606364, 0.5)
+
+.banner__data
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: flex
+  flex-direction: column-reverse
+  justify-content: center
+  align-items: center
+
+.banner__title,
+.banner__subtitle
+  text-align: center
+  text-transform: uppercase
+
+.banner__subtitle
+  position: relative
+  font-size: 18px
+  padding-bottom: 40px
+  margin-bottom: 30px
+  color: #9ab9be
+
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 50%
+    height: 1px
+    margin: auto
+    background-color: #ffffff
+
+.banner__title
+  color: #ffffff
+  font-size: 120px
+

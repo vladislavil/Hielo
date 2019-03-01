@@ -1,20 +1,20 @@
-<template>
-  <div id="app">
-    <header-top></header-top>
-    <banner></banner>
-  </div>
+<template lang="pug">
+  #app
+    header-top
+    banner
 </template>
 
 <script>
 
-import Banner from './Banner/Banner'
-import HeaderTop from './Header/Header'
+import Banner from './components/Banner/Banner'
+import HeaderTop from './components/Header/Header'
 
 export default {
-  components: {
-    Banner,
-    HeaderTop,
-  }
+    components: {
+        Banner,
+        HeaderTop
+    }
+
 }
 </script>
 
