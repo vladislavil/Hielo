@@ -11,5 +11,4 @@ export default () => {
     el: '#main',
     render: createElem => createElem(AppVue),
   });
-  AppReact();
 };

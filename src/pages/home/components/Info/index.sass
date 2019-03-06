@@ -1,0 +1,56 @@
+.info__content
+  height: 250px
+  position: relative
+
+.info__data
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: flex
+  flex-direction: column-reverse
+  justify-content: center
+  align-items: center
+
+.info__title
+  text-align: center
+
+.info__subtitle
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 3px
+
+.info__subtitle
+  position: relative
+  font-size: 18px
+  padding-bottom: 40px
+  margin-bottom: 30px
+  color: #9ab9be
+
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 50%
+    height: 1px
+    margin: auto
+    background-color: #ffffff
+
+.info__title
+  color: #ffffff
+  font-size: 30px
+
+.info__data::before
+  content: ""
+  position: absolute
+  background: #000
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  opacity: 0.5
+  z-index: -1
+
