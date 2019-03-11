@@ -32,6 +32,24 @@
   cursor: pointer
   color: #ffffff
 
+  &.close
+    position: relative
+
+    &::before
+      content: "X"
+      width: 10px
+      position: fixed
+      top: 25px
+      right: 30px
+      color: #ffffff
+      z-index: 2
+      text-align: right
+      transition: color 0.3s
+
+      &:hover
+        color: red
+
+
 .header-top__strip
   display: inline-block
   position: relative

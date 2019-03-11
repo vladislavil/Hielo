@@ -1,1 +1,44 @@
-.images__wrapper
+.images
+  background-color: #f2f2f2
+  padding: 90px 0 60px
+
+.images__content
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.images__text
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  margin-bottom: 40px
+
+.images__title
+  text-align: center
+
+.images__subtitle
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 3px
+
+.images__subtitle
+  position: relative
+  font-size: 16px
+  padding-bottom: 5px
+  margin-bottom: 10px
+  color: #999999
+
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 90%
+    height: 1px
+    background-color: rgba(#999999, 0.5)
+    margin: auto
+
+.images__title
+  font-size: 30px

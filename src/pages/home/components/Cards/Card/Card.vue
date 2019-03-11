@@ -7,7 +7,7 @@
                 .card__subtitle {{ item.subtitle }}
                 .card__title {{ item.title }}
                 .card__text {{ item.text }}
-                a.card__button learn more
+                a(href="#").card__button learn more
 </template>
 
 
