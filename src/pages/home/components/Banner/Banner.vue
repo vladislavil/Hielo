@@ -1,5 +1,5 @@
 <template lang="pug">
-  .banner
+  .banner__content
     agile.banner__carousel(:autoplay="true" :dots="true" :arrows="false" :pauseOnHover="false" :fade="true" :speed="700")
       .slide(v-for="(item, key) in items")
         parallax(:speed-factor="0.4")

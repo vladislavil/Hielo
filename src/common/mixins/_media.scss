@@ -21,3 +21,8 @@
     @content;
   }
 }
+
+@function px-to-vw($sizeBase, $sizeScreen) {
+  @return ($sizeBase / $sizeScreen) * 100vw
+}
+

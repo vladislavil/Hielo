@@ -30,15 +30,6 @@ import './index.sass'
               ]
           }
       },
-      // created() {
-      //     document.addEventListener('click', (event) => {
-      //         var el = document.querySelector('.header-top__nav');
-      //         if(el.classList.contains('visible')) {
-      //             console.log(event.target.className)
-      //             this.isVisible = !this.isVisible;
-      //         }
-      //     });
-      // }
   }
 
 </script>
