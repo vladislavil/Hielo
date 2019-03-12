@@ -24,8 +24,8 @@
   justify-content: center
 
 .agile__dot
-  width: 12px
-  height: 12px
+  width: px-to-vw(12, $desktop_md)
+  height: px-to-vw(12, $desktop_md)
   margin-right: 18px
 
   &:last-child
@@ -40,6 +40,18 @@
 
     &:hover
       background-color: rgba(#606364, 0.5)
+
+  +max-w($laptop_lg)
+    width: px-to-vw(10, $laptop_sm)
+    height: px-to-vw(10, $laptop_sm)
+
+  +max-w($tablet)
+    width: px-to-vw(9, $mobile_md)
+    height: px-to-vw(9, $mobile_md)
+
+  +max-w($mobile_sm)
+    width: px-to-vw(8, $mobile_xs)
+    height: px-to-vw(8, $mobile_xs)
 
 .agile__dot--current
   button
@@ -56,20 +68,18 @@
   justify-content: center
   align-items: center
 
-.banner__title
-  text-align: center
-
-.banner__subtitle
-  text-align: center
-  text-transform: uppercase
-  letter-spacing: 3px
+  +max-w(1175)
+    padding: 0 15px
 
 .banner__subtitle
   position: relative
-  font-size: px-to-vw(18, 1920)
-  padding-bottom: px-to-vw(40, 1920)
-  margin-bottom: 30px
+  font-size: px-to-vw(18, $desktop_md)
+  padding-bottom: px-to-vw(40, $desktop_md)
+  margin-bottom: px-to-vw(30, $desktop_md)
   color: #9ab9be
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 3px
 
   &::before
     content: ""
@@ -82,8 +92,35 @@
     margin: auto
     background-color: #ffffff
 
+  +max-w($laptop_lg)
+    font-size: px-to-vw(16, $laptop_sm)
+    padding-bottom: px-to-vw(30, $laptop_sm)
+    margin-bottom: px-to-vw(20, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(14, $mobile_md)
+    padding-bottom: px-to-vw(20, $mobile_md)
+    margin-bottom: px-to-vw(10, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(13, $mobile_xs)
+    padding-bottom: px-to-vw(15, $mobile_xs)
+    margin-bottom: px-to-vw(5, $mobile_xs)
+
+
 .banner__title
   color: #ffffff
-  font-size: px-to-vw(120, 1920)
+  font-size: px-to-vw(120, $desktop_md)
+  text-align: center
+
+  +max-w($laptop_lg)
+    font-size: px-to-vw(85, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(60, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(35, $mobile_xs)
+
 
 

@@ -1,17 +1,43 @@
+.card
+
+  +max-w($tablet)
+    width: 100%
+
 .card__content
-  width: 520px
+  width: px-to-vw(520, $desktop_md)
   background-color: #ffffff
 
+  +max-w($laptop_lg)
+    width: px-to-vw(420, $laptop_sm)
+
+  +max-w($tablet)
+    width: 100%
+    margin-bottom: 30px
+
 .card__img-wrapper
-  width: 520px
-  height: 260px
+  width: px-to-vw(520, $desktop_md)
+  height: px-to-vw(260, $desktop_md)
+
+  +max-w($laptop_lg)
+    width: px-to-vw(420, $laptop_sm)
+    height: px-to-vw(210, $laptop_sm)
+
+  +max-w($tablet)
+    width: 100%
+    height: px-to-vw(300, $mobile_md)
 
 .card__img
   width: 100%
   height: auto
 
 .card__text-wrapper
-  padding: 50px 45px 42px
+  padding: px-to-vw(50, $desktop_md) px-to-vw(45, $desktop_md) px-to-vw(42, $desktop_md)
+
+  +max-w($laptop_lg)
+    padding: px-to-vw(35, $laptop_sm) px-to-vw(35, $laptop_sm) px-to-vw(30, $laptop_sm)
+
+  +max-w($tablet)
+    padding: px-to-vw(25, $mobile_md) px-to-vw(25, $mobile_md) px-to-vw(20, $mobile_md)
 
 .card__subtitle
   position: relative
@@ -33,20 +59,49 @@
     margin: 0 auto
     background-color: rgba(#000000, 0.125)
 
+  +max-w($laptop_lg)
+    font-size: px-to-vw(16, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(14, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(14, $mobile_xs)
+
 .card__title
-  margin-bottom: 35px
-  font-size: 30px
+  margin-bottom: px-to-vw(35, $desktop_md)
+  font-size: px-to-vw(30, $desktop_md)
   text-align: center
 
+  +max-w($laptop_lg)
+    font-size: px-to-vw(26, $laptop_sm)
+    margin-bottom: px-to-vw(25, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(20, $mobile_md)
+    margin-bottom: px-to-vw(15, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(18, $mobile_xs)
+    margin-bottom: px-to-vw(10, $mobile_xs)
+
 .card__text
-  margin-bottom: 35px
+  margin-bottom: px-to-vw(35, $desktop_md)
   color: #a6a6a6
+
+  +max-w($tablet)
+    margin-bottom: px-to-vw(15, $mobile_md)
+    font-size: px-to-vw(13, $mobile_md)
+
+  +max-w($mobile_sm)
+    margin-bottom: px-to-vw(10, $mobile_xs)
+    font-size: px-to-vw(13, $mobile_xs)
 
 .card__button
   display: block
   margin: 0 auto
-  width: 144px
-  line-height: 40px
+  width: px-to-vw(144, $desktop_md)
+  line-height: px-to-vw(40, $desktop_md)
   background-color: transparent
   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15)
   color: #000
@@ -58,4 +113,19 @@
   &:hover,
   &:focus
     background-color: rgba(0, 0, 0, 0.075)
+
+  +max-w($laptop_lg)
+    width: px-to-vw(120, $laptop_sm)
+    line-height: px-to-vw(30, $laptop_sm)
+    font-size: px-to-vw(16, $laptop_sm)
+
+  +max-w($tablet)
+    width: 100%
+    line-height: px-to-vw(40, $mobile_md)
+    font-size: px-to-vw(14, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(14, $mobile_xs)
+    line-height: px-to-vw(35, $mobile_xs)
+
 

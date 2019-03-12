@@ -58,6 +58,7 @@ export default {
                 }
             }
         };
+
     }
 
 }
@@ -65,7 +66,7 @@ export default {
 
 <style lang="sass">
 .cards
-    background-color: #f2f2f2
+    background-color: #f2f2f3
 
 .top-panel__fixed
     position: fixed

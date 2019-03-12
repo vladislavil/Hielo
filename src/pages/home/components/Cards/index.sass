@@ -2,4 +2,17 @@
   display: flex
   justify-content: space-between
   flex-wrap: wrap
-  padding: 90px 0 95px
+  padding: px-to-vw(90, $desktop_md) 0 px-to-vw(95, $desktop_md)
+
+  +max-w(1175)
+    padding-left: 15px
+    padding-right: 15px
+
+  +max-w($laptop_lg)
+    justify-content: space-around
+    padding: px-to-vw(65, $laptop_sm) 15px px-to-vw(60, $laptop_sm)
+
+  +max-w($tablet)
+    flex-direction: column
+    align-items: center
+    padding: px-to-vw(45, $mobile_sm) 15px px-to-vw(40, $mobile_sm)

@@ -2,10 +2,18 @@
   background-color: #f2f2f2
   padding: 90px 0 60px
 
+  +max-w(1175)
+    padding-left: 15px
+    padding-right: 15px
+
 .images__content
   display: flex
   justify-content: space-between
   flex-wrap: wrap
+
+  +max-w($mobile_md)
+    flex-direction: column
+    align-items: center
 
 .images__text
   display: flex
@@ -14,20 +22,24 @@
   align-items: center
   margin-bottom: 40px
 
-.images__title
-  text-align: center
-
-.images__subtitle
-  text-align: center
-  text-transform: uppercase
-  letter-spacing: 3px
-
 .images__subtitle
   position: relative
   font-size: 16px
   padding-bottom: 5px
   margin-bottom: 10px
   color: #999999
+  text-align: center
+  text-transform: uppercase
+  letter-spacing: 3px
+
+  +max-w($laptop_lg)
+    font-size: px-to-vw(16, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(14, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(14, $mobile_xs)
 
   &::before
     content: ""
@@ -42,3 +54,18 @@
 
 .images__title
   font-size: 30px
+  text-align: center
+
+  +max-w($laptop_lg)
+    font-size: px-to-vw(26, $laptop_sm)
+    margin-bottom: px-to-vw(25, $laptop_sm)
+
+  +max-w($tablet)
+    font-size: px-to-vw(20, $mobile_md)
+    margin-bottom: px-to-vw(15, $mobile_md)
+
+  +max-w($mobile_sm)
+    font-size: px-to-vw(18, $mobile_xs)
+    margin-bottom: px-to-vw(10, $mobile_xs)
+
+

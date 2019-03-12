@@ -108,10 +108,16 @@
         content: "\f00d"
         font-size: 20px
 
+  +max-w($mobile_md)
+    width: 100%
+    transform: translateX(100%)
+    overflow: hidden
+
 .header-top__item
   border-bottom: 1px solid rgba(#ffffff, 0.5)
 
 .header__link
+  display: block
   font-size: 15px
   line-height: 3.5rem
   text-transform: uppercase
@@ -121,3 +127,8 @@
   &:hover,
   &:focus
     color: rgba(255, 255, 255, 1)
+
+
+@media (max-width: 640px)
+  .no--scroll
+    overflow: hidden
