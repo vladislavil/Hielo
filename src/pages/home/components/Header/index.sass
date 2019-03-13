@@ -32,24 +32,6 @@
   cursor: pointer
   color: #ffffff
 
-  &.close
-    position: relative
-
-    &::before
-      content: "X"
-      width: 10px
-      position: fixed
-      top: 25px
-      right: 30px
-      color: #ffffff
-      z-index: 2
-      text-align: right
-      transition: color 0.3s
-
-      &:hover
-        color: red
-
-
 .header-top__strip
   display: inline-block
   position: relative
@@ -89,6 +71,7 @@
   position: fixed
   top: 0
   right: 0
+  z-index: 10
   height: 100%
   width: 280px
   background-color: #000000
@@ -132,3 +115,21 @@
 @media (max-width: 640px)
   .noscroll
     overflow: hidden
+
+.header-top__close
+  position: absolute
+  top: 15px
+  right: 31px
+  cursor: pointer
+  color: #ffffff
+  font-size: 20px
+
+  &:hover
+    color: rgba(#ffffff, 0.5)
+
+.fixed
+  position: fixed
+  left: 0
+  top: 0
+  background-color: #000000
+  transition: background-color 0.9s

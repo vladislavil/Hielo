@@ -1,6 +1,6 @@
 <template lang="pug">
   .banner__content
-    agile.banner__carousel(:autoplay="true" :dots="true" :arrows="false" :pauseOnHover="false" :fade="true" :speed="700")
+    agile.banner__carousel(:autoplay="true" :dots="true" :arrows="false" :pauseOnHover="false" :fade="true" :speed="700" :adjustableHeight="true")
       .slide(v-for="(item, key) in items")
         parallax(:speed-factor="0.4")
           img.banner__img(:src="item.image" :alt="item.image")
