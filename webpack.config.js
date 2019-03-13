@@ -118,28 +118,30 @@ const config = {
       },
     },
   },
-  stats: {
-    assets: true,
-    colors: true,
-    errors: true,
-    errorDetails: true,
-    hash: true,
-  },
+
   module: {
     rules: [
+      {
+        test: /\.vue$/,
+        use: 'vue-loader',
+      },
       {
         test: /\.(js|jsx|es6)$/,
         loader: 'babel-loader',
         options: {
-          cacheDirectory: true,
+          configFile: path.resolve(__dirname, 'babel.config.js'),
         },
-        exclude: [
-          path.resolve(__dirname, 'node_modules'),
-        ],
+        exclude: file => /node_modules/.test(file) && !/\.vue\.js/.test(file),
       },
       {
-        test: /\.vue$/,
-        use: 'vue-loader',
+        test: /\.(js|jsx|es6)$/,
+        loader: 'babel-loader',
+        options: {
+          configFile: path.resolve(__dirname, 'babel.node.config.js'),
+        },
+        include: [
+          /normalize-url/i,
+        ],
       },
       {
         test: /\.(jpe?g|png|gif|svg|ico)$/i,
@@ -265,8 +267,7 @@ const config = {
                   basedir: path.resolve(__dirname, 'src'),
                   pretty: '    ',
                   data: {
-                    hash: (new Date()).getTime()
-                      .toString('16'),
+                    hash: (new Date()).getTime().toString('16'),
                   },
                 },
               },
@@ -279,15 +280,43 @@ const config = {
 
   resolve: {
     modules: [
+      'node_modules', // нужно чтоб правильно разрешались зависимости в пакетах, если пакет требудет другую версию
       path.resolve(__dirname, 'node_modules'),
       path.resolve(__dirname, 'src'),
     ],
+    // alias: {
+    //   vue$: 'vue/dist/vue.common.js',
+    // },
     extensions: ['*', '.js', '.es6', '.jsx', '.vue', '.css', '.scss', '.sass'],
   },
 
-  devtool: 'source-map',
+  devtool: IS_PRODUCTION ? 'none' : 'inline-cheap-source-map',
+
+  stats: {
+    // copied from `'minimal'`
+    all: false,
+    modules: true,
+    maxModules: 0,
+    errors: true,
+    warnings: true,
+    // our additional options
+    moduleTrace: true,
+    errorDetails: true,
+  },
 
   devServer: {
+    stats: {
+      // copied from `'minimal'`
+      all: false,
+      modules: true,
+      maxModules: 0,
+      errors: true,
+      warnings: true,
+      // our additional options
+      moduleTrace: true,
+      errorDetails: true,
+    },
+    clientLogLevel: 'error',
     host: SERVER_HOST,
     port: SERVER_PORT,
     headers: { 'Access-Control-Allow-Origin': '*' },
@@ -322,6 +351,5 @@ if (IS_PRODUCTION) {
     }),
   );
 }
-
 
 module.exports = config;
