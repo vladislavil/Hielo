@@ -30,26 +30,31 @@ import './index.sass'
               ]
           }
       },
-      created() {
-
-          window.onload = function () {
-              var aaaa = document.querySelector('.header-top__menu');
-
-              aaaa.onclick = function () {
-                  var header = document.querySelector('.header-top__nav');
-                  var body = document.body;
-                  if (!header.classList.contains('visible')) {
-                      console.log(11111);
-                      console.log(body);
-                      body.classList.add('no--scroll')
-                  } else {
-                      if (body.classList.contains('no--scroll')) {
-                          body.classList.remove('no--scroll');
-                      }
-                  }
-              }
+      watch: {
+          active: function () {
+              document.body.style.overflow = this.isVisible ? '' : 'hidden'
           }
       }
+      // created() {
+      //
+      //     window.onload = function () {
+      //         var aaaa = document.querySelector('.header-top__menu');
+      //
+      //         aaaa.onclick = function () {
+      //             var header = document.querySelector('.header-top__nav');
+      //             var body = document.body;
+      //             if (!header.classList.contains('visible')) {
+      //                 console.log(11111);
+      //                 console.log(body);
+      //                 body.classList.add('no--scroll')
+      //             } else {
+      //                 if (body.classList.contains('no--scroll')) {
+      //                     body.classList.remove('no--scroll');
+      //                 }
+      //             }
+      //         }
+      //     }
+      // }
   }
 
 </script>
