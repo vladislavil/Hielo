@@ -13,7 +13,7 @@
       ul.header-top__list
           li.header-top__item(v-for="item of items")
               a.header__link(:href="item.href" @click="isVisible = false") {{ item.text }}
-      span.header-top__close(@click="isVisible = !isVisible") X
+      span.header-top__close(@click="noscroll") X
 
 </template>
 
@@ -36,6 +36,7 @@ import './index.sass'
       methods: {
           noscroll: function () {
               this.isVisible = !this.isVisible;
+              console.log(this.isVisible);
               if(this.isVisible === true) {
                   document.body.classList.add('noscroll');
               }
