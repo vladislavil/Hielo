@@ -1,7 +1,7 @@
 <template lang="pug">
     .photo
         .photo__content
-            a(:href="'#' + image" @click="changeIndex").photo__wrapper
+            div(@click="changeIndex").photo__wrapper
                 img(:src="image").photo__img
 </template>
 
