@@ -11,14 +11,14 @@ import './index.sass'
     export default {
         data() {
             return{
-
+                indexLocal: this.index
             }
         },
         props: ["image", "imageIndex", "index"],
         methods: {
             changeIndex: function () {
-                this.index = this. imageIndex;
-                this.$emit('indexChanged', this.index)
+                this.indexLocal = this. imageIndex;
+                this.$emit('indexChanged', this.indexLocal)
             }
         }
     }

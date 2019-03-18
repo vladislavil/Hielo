@@ -5,7 +5,7 @@
                 .images__subtitle NAM VEL ANTE SIT AMET LIBERO SCELERISQUE FACILISIS ELEIFEND VITAE URNA
                 .images__title Morbi maximus justo
             .images__content
-                vue-gallery( :images="images" :index="index" @close="index = null" )
+                vue-gallery( :images="images" :index="index" @close="index = null"  @open = "index = 0")
                 photo(v-for="(image, imageIndex) in images" :image="image" :imageIndex="imageIndex" :key="imageIndex" :index="index" @indexChanged = "index = $event")
 </template>
 
