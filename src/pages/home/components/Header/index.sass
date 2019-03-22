@@ -75,26 +75,7 @@
   height: 100%
   width: 280px
   background-color: #000000
-  transform: translateX(280px)
-  transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s
   padding: 3rem 2rem
-
-  &.visible
-    transform: translateX(0)
-    box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2)
-    visibility: visible
-
-    &.header-top__strip span
-        display: none
-
-    &.header-top__strip &::before
-        content: "\f00d"
-        font-size: 20px
-
-  +max-w($mobile_md)
-    width: 100%
-    transform: translateX(100%)
-    overflow: hidden
 
 .header-top__item
   border-bottom: 1px solid rgba(#ffffff, 0.5)

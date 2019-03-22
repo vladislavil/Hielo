@@ -5,15 +5,16 @@
         span.header-top__hielo
           | Hielo &nbsp;
         | by TEMPLATED
-      .header-top__menu( @click="noscroll" :class="{close: isVisible}" v-show="isVisible === false")
+      .header-top__menu( @click="noscroll" v-show="isVisible === false")
         .header-top__strip
           span
         | menu
-    nav.header-top__nav( :class="{visible: isVisible}" )
-      ul.header-top__list
-          li.header-top__item(v-for="item of items")
-              a.header__link(:href="item.href" @click="isVisible = false") {{ item.text }}
-      span.header-top__close(@click="noscroll") X
+    transition(name="visible")
+        nav.header-top__nav(v-show="isVisible")
+          ul.header-top__list
+              li.header-top__item(v-for="item of items")
+                  a.header__link(:href="item.href" @click="isVisible = false") {{ item.text }}
+          span.header-top__close(@click="noscroll") X
 
 </template>
 
@@ -48,3 +49,32 @@ import './index.sass'
   }
 
 </script>
+
+<style lang="sass">
+
+.visible-enter
+    transform: translateX(280px)
+
+    &.header-top__strip span
+        display: none
+
+    &.header-top__strip &::before
+        content: "\f00d"
+        font-size: 20px
+
+    +max-w($mobile_sm)
+        transform: translateX(100%)
+
+.visible-enter-active
+    transition: transform 0.5s
+
+.visible-leave-to
+    transform: translateX(280px)
+
+    +max-w($mobile_sm)
+        transform: translateX(100%)
+
+.visible-leave-active
+    transition: transform 0.5s
+
+</style>
