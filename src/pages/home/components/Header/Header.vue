@@ -52,5 +52,25 @@ import './index.sass'
 
 <style lang="sass">
 
+    .visible-enter
+        transform: translateX(280px)
+
+        &.header-top__strip span
+            display: none
+
+        +max-w($mobile_sm)
+            transform: translateX(100%)
+
+    .visible-enter-active
+        transition: transform 0.5s
+
+    .visible-leave-to
+        transform: translateX(280px)
+
+        +max-w($mobile_sm)
+            transform: translateX(100%)
+
+    .visible-leave-active
+        transition: transform 0.5s
 
 </style>

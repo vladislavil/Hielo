@@ -77,6 +77,9 @@
   background-color: #000000
   padding: 3rem 2rem
 
+  +max-w($mobile_sm)
+    width: 100%
+
 .header-top__item
   border-bottom: 1px solid rgba(#ffffff, 0.5)
 
@@ -114,29 +117,3 @@
   top: 0
   background-color: #000000
   transition: background-color 0.9s
-
-
-.visible-enter
-  transform: translateX(280px)
-
-  &.header-top__strip span
-    display: none
-
-  &.header-top__strip &::before
-    content: "\f00d"
-    font-size: 20px
-
-  +max-w($mobile_sm)
-    transform: translateX(100%)
-
-.visible-enter-active
-  transition: transform 0.5s
-
-.visible-leave-to
-  transform: translateX(280px)
-
-  +max-w($mobile_sm)
-    transform: translateX(100%)
-
-.visible-leave-active
-  transition: transform 0.5s
