@@ -10,11 +10,11 @@
           span
         | menu
     transition(name="visible")
-        nav.header-top__nav(v-show="isVisible")
-          ul.header-top__list
-              li.header-top__item(v-for="item of items")
-                  a.header__link(:href="item.href" @click="isVisible = false") {{ item.text }}
-          span.header-top__close(@click="noscroll") X
+      nav.header-top__nav(v-show="isVisible")
+        ul.header-top__list
+          li.header-top__item(v-for="item of items")
+             router-link.header-top__link( :to="item.href") {{ item.text }}
+        span.header-top__close(@click="noscroll") X
 
 </template>
 
@@ -27,9 +27,9 @@ import './index.sass'
           return {
               isVisible: false,
               items: [
-                  {text: "home", href: "#"},
-                  {text: "gtntric", href: "#"},
-                  {text: "elements", href: "#"}
+                  {text: "home", href: "/Home"},
+                  {text: "gtntric", href: "/gtntric"},
+                  {text: "elements", href: "/elements"}
               ]
           }
       },

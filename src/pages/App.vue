@@ -1,25 +1,15 @@
 <template lang="pug">
-  .main__content#app(v-scroll="handleScroll")
-    header
-        header-top( :isHeader = "isHeader")
-    section.banner
-        banner
-    section.cards
-        cards
-    section.info
-        info
-    section.gellary
-        images
+  .main#app(v-scroll="handleScroll")
+    section.header
+      header-top( :isHeader = "isHeader")
+    router-view
 
 </template>
 
 <script>
 
-import Banner from './components/Banner/Banner'
-import HeaderTop from './components/Header/Header'
-import Cards from './components/Cards/Cards'
-import Info from './components/Info/Info'
-import Images from './components/Images/Images'
+import Banner from 'components/Banner/Banner'
+import HeaderTop from 'components/Header/Header'
 
 export default {
     data() {
@@ -29,10 +19,7 @@ export default {
     },
     components: {
         Banner,
-        HeaderTop,
-        Cards,
-        Info,
-        Images
+        HeaderTop
     },
     methods: {
         handleScroll: function(evt, el) {
