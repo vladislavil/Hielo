@@ -13,7 +13,7 @@
       nav.header-top__nav(v-show="isVisible")
         ul.header-top__list
           li.header-top__item(v-for="item of items")
-             router-link.header-top__link( :to="item.href") {{ item.text }}
+             router-link( :to="item.href" @click="isVisible = false") {{ item.text }}
         span.header-top__close(@click="noscroll") X
 
 </template>
@@ -27,7 +27,7 @@ import './index.sass'
           return {
               isVisible: false,
               items: [
-                  {text: "home", href: "/Home"},
+                  {text: "home", href: "/"},
                   {text: "gtntric", href: "/gtntric"},
                   {text: "elements", href: "/elements"}
               ]
