@@ -1,6 +1,15 @@
-import initHome from './home';
+import Vue from 'vue';
+import AppVue from './App.vue';
+
+import './index.pug';
+import './index.sass';
+
 
 export default () => {
-  console.log('init pages');
-  initHome();
+
+  new Vue({
+    el: '#main',
+    render: createElem => createElem(AppVue),
+  });
+  AppReact();
 };
