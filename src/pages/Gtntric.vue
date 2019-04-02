@@ -1,22 +1,61 @@
 <template lang="pug">
   .gtntric
     header-top
-    div
-      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur, illum molestiae nisi perferendis quasi. Accusamus accusantium atque commodi consequuntur culpa dignissimos est, eum explicabo, fuga incidunt ipsum iusto laboriosam nisi perferendis praesentium quasi quis quo, sit temporibus ut! Corporis culpa dolorem enim ex iure maiores nam nemo qui ratione veritatis! Accusantium aliquam animi, aut doloremque et excepturi expedita hic ipsa ipsam ipsum possimus recusandae sequi similique sunt veritatis voluptates voluptatibus. Dicta ea earum laboriosam maiores neque, quos tempore. Doloribus labore officiis quaerat quos, sapiente similique? Atque autem doloribus ipsum quasi similique? Facere fugit necessitatibus perferendis perspiciatis quo saepe temporibus! Adipisci, amet beatae cupiditate doloremque ea eius error explicabo impedit ipsa laborum modi nobis non nostrum officiis optio pariatur porro quaerat soluta ut voluptatum. A adipisci architecto, beatae cupiditate dolores eveniet fugiat impedit incidunt odit officia perspiciatis quas quia quo quod reiciendis saepe sunt veniam voluptate. Adipisci at delectus dignissimos eaque, fuga illo illum laboriosam laudantium maxime modi natus necessitatibus nesciunt officia quia sunt, totam velit? Aliquam animi architecto doloribus nam odio quaerat. Alias aspernatur at commodi cum, deserunt doloribus ducimus et expedita impedit ipsam itaque labore libero magni molestiae nemo nesciunt nostrum officia pariatur perspiciatis, quos saepe sequi suscipit veritatis voluptate voluptatem. A alias amet asperiores, aspernatur commodi consequatur cum debitis deserunt dicta dolore dolorem doloremque doloribus earum facilis fugiat hic impedit in iste modi nihil odio officiis perspiciatis placeat praesentium quae quo rem reprehenderit sed sit suscipit tenetur ut vero voluptates. Aliquam beatae dolor, exercitationem molestias necessitatibus porro? Amet at aut deleniti deserunt dignissimos distinctio expedita facilis fuga fugiat inventore iure minima modi molestiae nemo nisi numquam odio praesentium quas quis quo quod ratione reiciendis repellat sed, soluta tempore, veritatis, vero! Ad assumenda atque corporis debitis ducimus enim eos est et fugiat id iusto laboriosam laudantium magni maiores minima mollitia natus neque non nostrum obcaecati omnis pariatur quae qui quia quibusdam quo quod ratione recusandae, sapiente sed sit tempora voluptate voluptatem? Accusantium architecto consectetur cumque cupiditate debitis, dolorum eum ex harum id incidunt ipsa libero magni maxime molestias nemo nesciunt non numquam omnis optio quae quas quibusdam, quidem quis recusandae repellendus rerum sapiente sed sit sunt tempora tempore velit vitae voluptates. Aliquam, asperiores distinctio laboriosam nihil non obcaecati porro quas ratione sed soluta suscipit, temporibus ut. Adipisci aspernatur atque, culpa eius explicabo facere, illum in incidunt ipsa mollitia natus nisi non perspiciatis porro sequi, temporibus voluptates? Consequatur consequuntur cum dignissimos quia. Aliquam deserunt dolores laudantium minus nihil nulla possimus quisquam. Aperiam dicta explicabo in iste iure iusto libero nobis sapiente voluptate voluptatem? Ab, earum, officiis? Beatae blanditiis, deserunt esse exercitationem fuga molestias necessitatibus neque nisi, officiis placeat porro quod, repellendus rerum saepe sequi temporibus velit. Aspernatur, consequuntur eos eum fugit iste molestiae nostrum obcaecati perferendis porro provident quasi, ratione recusandae vero, vitae voluptate. Adipisci aliquid assumenda, beatae consequuntur deleniti dicta dignissimos excepturi fugit impedit ipsam ipsum laboriosam laborum nam quaerat quidem ratione sed tempore tenetur vel voluptas. Ab adipisci deserunt dolore dolores dolorum eius eum explicabo fugiat necessitatibus perspiciatis, praesentium, quae quaerat quas tenetur voluptatibus! Ad, assumenda corporis, cupiditate error excepturi incidunt inventore ipsa ipsum magni nam nulla quos ullam vel voluptatibus voluptatum. Accusantium architecto aspernatur at debitis deserunt doloremque esse est fugiat inventore ipsam itaque iusto libero magnam minima nobis odio odit pariatur placeat provident quae quas quasi, qui quibusdam recusandae sapiente sunt tempora vel vero voluptates voluptatibus? Ab alias harum odio quos repellat. Architecto cupiditate excepturi fugiat iure? Ab aut blanditiis deserunt doloremque doloribus, expedita facere facilis, iste odit, omnis quae quaerat sapiente sint velit voluptatem. Ab amet blanditiis dicta, dolorem dolores ducimus esse itaque magnam magni maiores, maxime nisi nobis quasi quis quo rerum totam voluptates voluptatibus! Ab aliquam aspernatur, autem consectetur cumque debitis deleniti dolorem eum ex excepturi exercitationem, fugit harum id incidunt iste maxime modi mollitia natus nulla officiis omnis placeat repellendus rerum soluta, sunt unde voluptate? Animi autem eligendi esse officia suscipit! Amet aspernatur beatae, enim exercitationem facilis laboriosam nihil praesentium quod repellendus soluta tenetur voluptate. Accusantium consequatur cumque deserunt ducimus earum esse est eveniet explicabo id labore laudantium nulla placeat porro quia quisquam recusandae reiciendis rem, rerum, sapiente sed sunt tempora vel velit voluptates, voluptatibus. Aut consectetur, culpa dolore doloribus est facilis impedit magnam minima nisi, nobis nulla optio quas tempora totam vel veritatis voluptatibus! A assumenda cumque delectus, eum illo magnam nisi voluptatum? Dignissimos doloremque sunt totam voluptates. Alias amet atque consequuntur delectus dolorum eius ex exercitationem facilis fugit, harum in itaque libero nesciunt officia optio pariatur perferendis perspiciatis, placeat possimus quas quisquam rem saepe similique suscipit unde veritatis vitae voluptatem voluptates voluptatibus voluptatum. Accusamus, aperiam architecto aut consequatur consequuntur culpa debitis deleniti doloremque eius est et fugit, illo, illum incidunt laboriosam magni maiores maxime nostrum officiis porro quod recusandae rerum soluta tempora tempore unde ut voluptates! Consequuntur cum nulla odio porro quas quidem sapiente sit, tenetur velit? Aliquam, beatae cupiditate dolorem ipsam itaque nemo numquam officia omnis quasi quis ratione voluptas. Commodi consectetur deleniti deserunt hic in incidunt ipsam, molestiae porro quasi rerum, tenetur vel voluptatum. Accusamus accusantium assumenda cupiditate doloribus facere facilis fugit harum laborum magnam minus mollitia natus necessitatibus nemo possimus recusandae tempore, velit voluptas voluptatem! Architecto dolores eaque excepturi, labore libero necessitatibus pariatur totam. A amet dolore fuga officiis quo sed suscipit. Blanditiis dolor dolorem excepturi facilis placeat recusandae ullam vitae. A, adipisci aliquam atque beatae consequatur corporis, dolore ea error esse eveniet exercitationem facere fugiat inventore ipsum magni maiores maxime porro quam quos temporibus. A animi assumenda consequuntur culpa, cupiditate doloremque eos ipsum iure libero minus molestiae odit perspiciatis possimus qui quidem unde vel veritatis? Accusantium deleniti eius illo impedit inventore iusto mollitia nemo neque optio placeat quia repellat, repellendus suscipit, vel voluptas voluptate, voluptates. Deserunt dolores explicabo ipsam repudiandae sint soluta temporibus voluptatem. Architecto autem deleniti dolorem doloremque ea enim esse eum fugit incidunt ipsum libero, magnam maiores, neque pariatur porro quia quibusdam quos, ratione recusandae reiciendis sapiente sunt tempore ullam? Autem deserunt excepturi inventore ipsa minima, perferendis rem sequi sit vitae. At, repellat.
+    section.info
+      info( :items="items")
+    .gtntric__wrapper
+      .container
+        .gtntric__content
+          .gtntric__subtitle MAECENAS SAPIEN FEUGIAT EX PURUS
+          .gtntric__title Generic Page Template
+          .gtntric__text
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus eum facere possimus quibusdam soluta? Architecto consequuntur cumque distinctio dolorem dolores eveniet, fugiat impedit itaque minus molestias nemo, nesciunt odit officiis placeat porro quas quia quos soluta, vero voluptatum? Accusantium distinctio dolor dolorum fugiat id ipsa iusto laborum, natus nemo nobis officiis quaerat quam quia quos, reiciendis similique tenetur unde vel vero, voluptatum! Cupiditate, error et id placeat quasi qui reiciendis reprehenderit rerum velit voluptates? Animi commodi, dolore doloribus ducimus ea eaque esse excepturi non, nostrum qui repellat ut voluptatum? Accusamus assumenda consequatur delectus deserunt dicta dolore dolores ea eius est facere fuga fugit harum ipsam ipsum itaque labore laboriosam magnam nam nostrum numquam perspiciatis porro qui quidem ratione, repellendus ut voluptate, voluptates! Cum delectus dolorem dolorum ducimus, eius eveniet ex impedit inventore maiores nisi non numquam odio pariatur quae recusandae sapiente sequi ut! A aliquam autem, consectetur, cum, cumque debitis dolore eius eveniet excepturi facilis illo ipsum laudantium molestiae optio provident repellendus reprehenderit saepe sapiente sint ullam vel velit voluptatum? Consectetur, natus tempore? A accusantium eligendi hic, itaque iusto quam quod veniam? Aliquid consequatur debitis earum enim labore nam neque quidem quos? Aliquid asperiores, itaque iure perspiciatis voluptate voluptates.
+            br
+            br
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet culpa debitis delectus, dolor, eius enim, ipsam laudantium maxime modi nulla pariatur possimus quia reprehenderit sint unde voluptate! Accusantium aspernatur assumenda dolor laudantium, magnam sunt totam ullam vero. A accusamus aliquid architecto cum eligendi eos eum harum hic itaque nisi, odit pariatur perspiciatis quasi sequi velit vero voluptatum. Ab aliquam amet animi architecto beatae cumque deleniti dicta dolorum ducimus ea enim eum exercitationem explicabo fuga id, ipsa itaque laudantium maxime mollitia nemo neque nisi nulla officiis, quas quia quisquam quod, quos ratione reiciendis rem repellat repellendus sequi sint tempora veritatis vitae voluptatem. Ad asperiores deleniti excepturi hic ipsam iure natus nesciunt nulla, odio officiis sapiente, suscipit ullam ut veniam voluptates. Asperiores cum cupiditate enim facere ipsa nulla officiis perferendis voluptates! Doloremque eos odio quam qui quia sequi veritatis. A aliquid asperiores cumque dignissimos distinctio dolor doloribus error eveniet ex facilis fugiat hic id iusto molestiae molestias natus nemo nihil nulla optio possimus praesentium quaerat quam quibusdam quo rem repellat repellendus reprehenderit velit, voluptate voluptatibus? Ad, asperiores, aspernatur, cupiditate dignissimos eligendi est fugiat id impedit inventore labore libero magnam nulla omnis quae quia ratione tempore vel vitae voluptas voluptatum. Excepturi, repellat!
+            br
+            br
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aliquam cupiditate eos illo illum impedit itaque iure labore minus molestias nesciunt, non omnis quo quod vel veniam. Aliquid, corporis cumque deleniti deserunt dolores earum eligendi error et eveniet facere fugit illum inventore ipsam magnam maxime minima nam necessitatibus porro possimus, quo quod reiciendis totam voluptatem. Assumenda consectetur dolor dolorem doloribus eius nobis, rerum sit! Consequatur dignissimos eligendi impedit laboriosam quia quibusdam, quisquam reprehenderit voluptas! At autem commodi doloribus earum et facilis illo in iste iure nam nesciunt, vero voluptatem voluptates! A adipisci animi aspernatur consectetur corporis deserunt fugiat harum illum in ipsum molestias nam necessitatibus nulla officiis provident quam sit sunt, ut vitae voluptas! Aperiam beatae cupiditate dicta dolores facilis illo in ipsa labore magni nam obcaecati, optio quis, rerum saepe veritatis. Adipisci ex inventore labore optio recusandae rerum ullam? Delectus doloremque eos ex fugiat itaque officiis tempora veritatis voluptas? Atque aut blanditiis dolorem doloribus ducimus eligendi esse, ex illum impedit minus nemo nulla optio perferendis praesentium sequi totam unde vero voluptatibus. Cupiditate earum eligendi incidunt neque quasi. Dolores ex impedit in nihil perspiciatis recusandae repellendus suscipit voluptatibus. Accusamus accusantium commodi consequuntur dicta eaque enim fugiat, illum nemo sapiente veniam! Aliquid architecto, atque cumque cupiditate dolorem earum enim eos est et eveniet excepturi exercitationem fugiat fugit hic illo illum ipsa iure iusto libero magnam magni maxime nemo nobis obcaecati, odio officia possimus quae quia quidem repudiandae similique sunt ullam ut veniam, vero vitae voluptatibus! Cupiditate explicabo facere numquam quasi? Aperiam at consectetur consequuntur debitis deserunt dicta distinctio eos facilis hic id illo, impedit ipsa ipsam laudantium magnam magni nisi obcaecati quae quaerat quasi quo quos repudiandae rerum, sint suscipit vel voluptatibus! Aspernatur doloremque dolorum eum exercitationem, explicabo quisquam recusandae sit veniam? Aperiam asperiores atque beatae consectetur debitis dignissimos dolores dolorum, earum eos eum eveniet exercitationem explicabo harum impedit iusto, labore laborum libero magni provident quas quisquam repellendus repudiandae saepe veritatis vero? Eligendi fugit incidunt optio! Alias aperiam asperiores aspernatur consequatur consequuntur cupiditate debitis, doloribus ducimus eos fuga hic incidunt inventore ipsum iure labore magnam mollitia necessitatibus neque nobis odio praesentium quaerat quas quia quis quo repudiandae sapiente sint soluta suscipit temporibus ullam ut vel voluptas! Debitis necessitatibus, ratione? Ab aliquam, architecto, aspernatur atque autem blanditiis cum cupiditate earum eos et excepturi expedita facere fugiat id impedit, ipsam iste iusto labore maiores nemo nulla numquam odio placeat quia recusandae repellat tempora totam ullam voluptas voluptatum. Alias architecto at, cupiditate eos excepturi facere facilis fuga fugit impedit libero magnam officiis quas, qui quod rem temporibus totam unde ut, vel voluptates? Consectetur deserunt dicta ducimus ea eos impedit iure sed voluptatum? Aut eaque eos ex harum illum, magnam minus odit rem sit velit, voluptates voluptatibus? Ad architecto beatae cupiditate dolorem dolorum earum error eum excepturi exercitationem facere fugiat in ipsum labore magnam minus molestias natus necessitatibus nostrum nulla odio praesentium quasi quo ratione rem repellendus, tempora tenetur vero! Aliquam animi consequatur culpa dicta, doloribus, eius eum illum minus placeat quam quas reiciendis.
 </template>
 
 <script>
   import HeaderTop from 'components/Header/Header'
+  import Info from 'components/Info/Info'
 
   export default {
+    data() {
+      return {
+        items: [
+          {title: "ELEIFEND VITAE URNA", subtitle: "Generic Page Template"}
+        ],
+      }
+    },
     components: {
-      HeaderTop
+      HeaderTop,
+      Info
     }
   }
 
 </script>
 
 <style lang="sass" scoped>
+
+  .gtntric__wrapper
+    background-color: #f2f2f2
+    padding: 100px 0
+
+    +max-w($tablet)
+      padding: 50px 0
+
+  .info
+    padding-top: 48px
+
+  .gtntric__content
+    background-color: #ffffff
+    padding: 50px
+
+    +max-w($tablet)
+      padding: 25px
 
   .header-top
     position: fixed
@@ -25,5 +64,70 @@
     right: 0
     bottom: 0
     background-color: black
+
+  .gtntric__subtitle
+    position: relative
+    font-size: 16px
+    padding-bottom: 5px
+    margin-bottom: 10px
+    color: #999999
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 3px
+
+    +max-w($laptop_lg)
+      font-size: px-to-vw(16, $laptop_sm)
+
+    +max-w($tablet)
+      font-size: px-to-vw(14, $mobile_md)
+
+    +max-w($mobile_sm)
+      font-size: px-to-vw(14, $mobile_xs)
+
+    &::before
+      content: ""
+      position: absolute
+      bottom: 0
+      left: 0
+      right: 0
+      width: 90%
+      height: 1px
+      background-color: rgba(#999999, 0.5)
+      margin: auto
+
+  .gtntric__title
+    font-size: px-to-vw(30, $desktop_md)
+    text-align: center
+
+    +max-w($laptop_lg)
+      font-size: px-to-vw(26, $laptop_sm)
+      margin-bottom: px-to-vw(25, $laptop_sm)
+
+    +max-w($tablet)
+      font-size: px-to-vw(20, $mobile_md)
+      margin-bottom: px-to-vw(15, $mobile_md)
+
+    +max-w($mobile_sm)
+      font-size: px-to-vw(18, $mobile_xs)
+      margin-bottom: px-to-vw(10, $mobile_xs)
+
+  .gtntric__text
+    display: flex
+    color: #999999
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: justify
+    margin-bottom: 40px
+
+    +max-w($laptop_lg)
+      margin-bottom: 30px
+
+    +max-w($laptop_sm)
+      margin-bottom: 20px
+
+    +max-w($tablet)
+      margin-bottom: 10px
+
 
 </style>

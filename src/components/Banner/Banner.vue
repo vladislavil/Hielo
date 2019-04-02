@@ -1,12 +1,12 @@
 <template lang="pug">
   .banner__content
     agile.banner__carousel(:autoplay="true" :dots="true" :arrows="false" :pauseOnHover="false" :fade="true" :speed="700" :adjustableHeight="true")
-      .slide(v-for="(item, key) in items")
+      .slide(v-for="(image, key) in images")
         parallax(:speed-factor="0.4")
-          img.banner__img(:src="item.image" :alt="item.image")
+          img.banner__img(:src="image.image" :alt="image.image")
         .banner__data
-          h1.banner__title {{item.title}}
-          h5.banner__subtitle {{item.subtitle}}
+          h1.banner__title {{image.title}}
+          h5.banner__subtitle {{image.subtitle}}
 </template>
 
 <script>
@@ -20,15 +20,12 @@ import './index.sass'
       Parallax,
       Agile
     },
+    props: [
+      "images"
+    ],
     data () {
       return {
-        items: [
-          {title: "Hielo", subtitle:'A FREE RESPONSIVE WEB SITE TEMPLATE BY TEMPLATED', image: "images/carousel/slide01.jpg"},
-          {title: 'Magna etiam', subtitle: 'LOREM IPSUM DOLOR SIT AMET NULLAM FEUGIAT', image: "images/carousel/slide02.jpg"},
-          {title: 'Tempus dolor', subtitle: 'SED CURSUS ALIUAM VEROEROS LOREM IPSUM NULLAM', image: "images/carousel/slide03.jpg"},
-          {title: 'Etiam feugiat', subtitle: 'LOREM IPSUM DOLOR SIT AMET NULLAM FEUGIAT', image: "images/carousel/slide04.jpg"},
-          {title: 'Lorem adipiscing', subtitle: 'IPSUM DOLOR SED MAGNA VEROEROS LOREM IPSUM', image: "images/carousel/slide05.jpg"},
-        ]
+
       }
     }
   }

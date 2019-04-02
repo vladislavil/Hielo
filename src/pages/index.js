@@ -8,19 +8,7 @@ import VueRouter from 'vue-router';
 import './index.pug';
 import './index.sass';
 
-
 Vue.use(VueRouter);
-
-Vue.directive('scroll', {
-  inserted: function(el, binding) {
-    let f = function (evt) {
-      if (binding.value(evt, el)) {
-        window.removeEventListener('scroll', f);
-      }
-    };
-    window.addEventListener('scroll', f);
-  }
-});
 
 const routes = [
   { path: '/', component: Home},

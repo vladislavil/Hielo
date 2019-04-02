@@ -12,8 +12,8 @@
     transition(name="visible")
       nav.header-top__nav(v-show="isVisible")
         ul.header-top__list
-          li.header-top__item(v-for="item of items")
-             router-link( :to="item.href" @click="isVisible = false") {{ item.text }}
+          li.header-top__item(v-for="(item, index) of items")
+             router-link( :to="item.href" @click="isVisible = !isVisible" replace) {{ item.text }}
         span.header-top__close(@click="noscroll") X
 
 </template>
@@ -37,7 +37,6 @@ import './index.sass'
       methods: {
           noscroll: function () {
               this.isVisible = !this.isVisible;
-              console.log(this.isVisible);
               if(this.isVisible === true) {
                   document.body.classList.add('noscroll');
               }
