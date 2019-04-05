@@ -1,7 +1,8 @@
 <template lang="pug">
   .elements
     header-top
-    .elements__img
+    .elements__content
+      .elements__img fdsfdfsd
 </template>
 
 <script>
@@ -17,6 +18,9 @@
 
 <style lang="sass" scoped>
 
+  .elements__content
+    height: 100vh
+
   .header-top
     position: fixed
     top: 0
@@ -26,9 +30,6 @@
     background-color: black
 
   .elements__img
-    position: absolute
-    top: 0
-    left: 0
     width: 100%
     height: 100%
     background-image: url("bg.jpg")

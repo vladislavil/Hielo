@@ -31,3 +31,12 @@ export default {
 }
 
 </script>
+
+<style lang="sass">
+
+  .blueimp-gallery > .next,
+  .blueimp-gallery > .prev
+    +max-w($mobile_sm)
+      display: none
+
+</style>
