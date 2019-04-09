@@ -13,7 +13,7 @@
       nav.header-top__nav(v-show="isVisible")
         ul.header-top__list
           li.header-top__item(v-for="(item, index) of items")
-             router-link( :to="item.href" @click="isVisible = !isVisible" replace) {{ item.text }}
+             router-link( :to="item.href" @click="noscroll") {{ item.text }}
         span.header-top__close(@click="noscroll") X
 
 </template>
@@ -45,6 +45,9 @@ import './index.sass'
               }
           },
       },
+      mounted() {
+          document.body.classList.remove('noscroll');
+      }
   }
 
 </script>
