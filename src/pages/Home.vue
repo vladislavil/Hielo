@@ -51,12 +51,16 @@
       Images
     },
     methods: {
-      handleScroll: function(evt, el) {
-        let banner = document.querySelector('.banner');
-        let banner_height = banner.offsetHeight;
-        let header = document.querySelector(".header-top");
-        let header_height = header.offsetHeight;
-
+      handleScroll: function() {
+        try {
+          var banner = document.querySelector('.banner');
+          var banner_height = banner.offsetHeight;
+          var header = document.querySelector(".header-top");
+          var header_height = header.offsetHeight;
+        }
+        catch (e) {
+          return;
+        }
         if(window.scrollY > (banner_height - header_height)) {
           this.isHeader = true;
         } else {
@@ -68,7 +72,8 @@
       scroll: {
         inserted: function (el, binding) {
           let f = function (evt) {
-            if (binding.value(evt, el)) {
+            console.log(binding.value(evt, el));
+            if(binding.value(evt, el)) {
               window.removeEventListener('scroll', f);
             }
           };
